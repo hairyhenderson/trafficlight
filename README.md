@@ -1,6 +1,6 @@
 # Traffic Light server (for Raspberry Pi)
 
-Needs `pi-blaster` to be running. To run:
+for PWM, needs `pi-blaster` to be running:
 
 ```console
 $ docker run -d --restart=always --privileged -v /dev:/dev hairyhenderson/pi-blaster
